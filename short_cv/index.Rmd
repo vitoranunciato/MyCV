@@ -1,0 +1,134 @@
+---
+#citeproc: no
+graphics: yes
+name: Vitor
+surname: Anunciato
+profilepic: lore.jpg
+#headcolor: 414141
+#qualifications: 
+position: "Research scientist"
+address: "402 West State Farm Road, 69101 North Platte, US. Nationality: Brazilian, Birthdate: 10/16/1991"
+phone: "+1 402-853-3893"
+email: "vitor.muller@gmail.com"
+twitter: vitor_anunciato
+github: vitoranunciato
+linkedin: vitoranunciato
+aboutme: 
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+csl: "../csl/apa7-cv.csl"
+nocite: "@*"
+knit: bookdown::render_book
+bibliography_selected: "../bib/selected.bib"
+bibliography_journals: "../bib/journal.bib"
+bibliography_proceedings: "../bib/proceedings.bib"
+bibliography_healthcare: "../bib/healthcare.bib"
+bibliography_working_paper: "../bib/working_paper.bib"
+bibliography_R_packages: "../bib/R_packages.bib"
+bibliography_github_projects: "../bib/github.bib"
+---
+
+```{r setup, include=FALSE, cache = FALSE}
+library(knitr)
+library(bookdown)
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+
+library(RefManageR)
+RefManageR::BibOptions(check.entries = FALSE,
+           bib.style = "authoryear",
+           sorting = "",
+           cite.style = "alphabetic",
+           style = "markdown",
+#           hyperlink = FALSE,
+           dashed = FALSE)
+
+library(vitae)
+library(tidyverse)
+library(ezpickr)
+library(ggplot2)
+library(dplyr)
+library(sf)
+library(rworldmap)
+library(stplanr)
+library(ggrepel)
+library(emojifont)
+library(huxtable)
+library(gridExtra)
+```
+# About me
+I am a Ph.D. student in Crop Protection (Weed Science), expected to graduate by March of 2021. My research scope includes tank‑mix interactions, resistant weed management, and data analysis. I have been advised by Dr. Caio A. Carbonari and Co‑advisor by Dr. Greg R. Kruger. The title of my thesis for my Master’s degree is The Effect of glyphosate on the growth and reproduction of Digitaria insularis. My  ungraduate focus was in agronomy and I was advised by Dr. Dionísio L. P. Gazziero, in the following lines of research: resistance of weeds to herbicides and   weed management in soybeans. I also had experience with Junior Enterprise and Research as an intern, where I found my passion for agronomic research. Since then, I feel very keen to pursue a career in research, science, and industry, dedicating my entire academic life to contribute to those subjects.
+
+# Education
+
+```{r education}
+ezpickr::pick("../data/education.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Working Experience
+
+```{r working-experience}
+ezpickr::pick("../data/working-experience.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Publications
+
+## Journal Papers
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+::: {#refs_journals}
+:::
+\endgroup
+
+## Book chapters
+
+Gazola, T. ; Anunciato, V. M. ; Dias, R. C. ; Bianchi, L. ; Moraes, C. P. ; Ferrari, J. L. . MECANISMOS DE AÇÃO DE HERBICIDAS E IDENTIFICAÇÃO DE PLANTAS DANINHAS. In: Edson Luiz Lopes Baldin; Adriana Zanin Kronka; Ivana Fernandes da Silva. (Org.). INOVAÇÕES EM MANEJO FITOSSANITÁRIO. 1ed.Botucatu: Fundação de Estudos e Pesquisas Agrícolas e Florestais, 2017, v. 1, p. 5-225.
+
+Gazziero, D.L.P.; Santos, A.M.B.; Adegas, F.S.; Anunciato, V.M.. LOSNA BRANCA RESISTENTE AO HERBICIDAS INIBIDORES DA ALS. In: Vargas, L. , Agostinetto, D.. (Org.). Resistência de Plantas Daninhas a Herbicidas no Brasil. 1ed.Pelotas: Pelotas: UFPel, 2014, v. 1, p. 7-383.
+
+Gazziero, D.L.P.; Santos, A.M.B.; Adegas, F.S.; Anunciato, V.M.; Karam, D.. BIÓTIPOS DE PICÃO-PRETO(Bidens subalternans) RESISTENTES A ATRAZINE. In: Vargas, L. , Agostinetto, D.. (Org.). Resistencia de plantas daninhas a herbicidas no brasil. 1ed.Pelotas: Pelotas: UFPel, 2014, v. 1, p. 7-383.
+
+\pagebreak
+
+# Skills
+
+\begin{cvskills}
+  \cvskill
+    {Data Science}
+    {R (advanced)}
+
+  \cvskill
+    {Reproducible Report}
+    {Markdown/Rmarkdown, R shiny apps}
+
+  \cvskill
+    {Quantitative Research}
+    {Dose response curve, Colby analysis, t-test, ANOVAs/ANCOVAs/MANOVAs/MANCOVAs,\newline
+    Regressions, Factor Analysis, PCA, Unsupervised/Supervised Machine Learning}
+
+  \cvskill
+    {Languages}
+    {Portuguese/English/French}
+\end{cvskills}
+
+# Service
+
+```{r service}
+ezpickr::pick("../data/service.xlsx") %>%
+#  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where)
+```
+
+# References
+* Associate Professor [Greg R. Kruger](gkruger2@unl.edu), University of Nebraska-Lincoln. West Central Research and Extension Center. 402 West State Farm Road, North Platte, NE, 69101. Work: +1 308-696-6715, greg.kruger@unl.edu
+
+* Professor [Caio A. Carbonari](carbonari@fca.unesp.br), Universidade Estadual Paulista Júlio de Mesquita Filho, Fazenda Experimental Lageado, CEP 18610-034, Botucatu, SP, Brazil. Work: +55 14 991145170, carbonari@fca.unesp.br
+
+* Researcher [Dionísio L. P. Gazziero](dionisio.gazziero@embrapa.br), Empresa Brasileira de Pesquisa Agropecuária (EMBRAPA Soja), Rd Carlos João Strass, s/nº CEP: 86001-970, Londrina, PR, Brazil. Work: +55 43 99948062, dionisio.gazziero@embrapa.br.
+
+![Vitor Muller Anunciato](../data/signature.png)\
