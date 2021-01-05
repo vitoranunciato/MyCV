@@ -1,8 +1,6 @@
 # Research Topics
 
- * Accessibility
- * Universal Design
- * Assistive Technology
- * Accessible STEM Learning
- * Computational Thinking for Learners with dis/ABILITIES
- * Inclusive CSCL (Computer-Supported Collaborative Learning)
+ * Weed management 
+ * Application technology
+ * Data analysis
+

@@ -1,7 +1,12 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # Education
 
 ```{r education}
 ezpickr::pick("data/education.xlsx") %>%
-  tidyr::fill(-why) %>%
+  tidyr::fill(-what) %>%
   vitae::detailed_entries(what, when, with, where, why)
 ```

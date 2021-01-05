@@ -1,0 +1,7 @@
+# Selected Professional Presentations and Posters 
+
+```{r selected-abstract}
+ezpickr::pick("data/selected-abstract.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why, .protect = FALSE)
+```

@@ -1,0 +1,45 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+# Others pulbications
+```{r echo=FALSE, cache=FALSE}
+data = read_excel("data/outreach.xlsx")
+
+data %>% 
+  count(data, main) -> data_df
+
+df = data %>% 
+  group_by(main) %>% 
+  count()
+df = as.data.frame(df)    
+df = df %>% 
+  rename(count = n) 
+
+vals <- df$count
+val_names <- sprintf("%s (%s)", df$main, scales::percent(round(df$count/sum(df$count), 2)))
+names(vals) <- val_names
+
+ggplot(data_df, aes(fill = main, values = n)) +
+  geom_waffle(color = "white", size = .25, n_rows = 2, flip = TRUE) +
+  facet_wrap(~data, nrow = 1, strip.position = "bottom") +
+  scale_x_discrete() +
+  scale_y_discrete(limits = c(0, 2, 4, 6, 8, 10))+
+  scale_fill_grey(start = 0.2, end = 0.9, labels = val_names)+
+  coord_equal() +
+  labs(
+    title = "Extention publications",
+    subtitle = "One square:one extension publication",
+    x = "Year",
+    y = "Count",
+    fill = "Main topic of extension publication",
+    caption = "(%) represents the % of the theme relative to the total of publications."
+  ) +
+  theme_minimal() +
+  theme(panel.grid = element_blank(), axis.ticks.y = element_line(), panel.spacing.x=unit(0.01, "lines")) +
+  guides(fill = guide_legend(reverse = TRUE))
+```
+
+
+

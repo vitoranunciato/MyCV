@@ -125,10 +125,12 @@ ezpickr::pick("../data/service.xlsx") %>%
 ```
 
 # References
-* Associate Professor [Greg R. Kruger](gkruger2@unl.edu), University of Nebraska-Lincoln. West Central Research and Extension Center. 402 West State Farm Road, North Platte, NE, 69101. Work: +1 308-696-6715, greg.kruger@unl.edu
+* Senior Weed Scientist Smart Sprayer [Greg R. Kruger](gkruger2@icloud.com), University of Nebraska-Lincoln. West Central Research and Extension Center. 402 West State Farm Road, North Platte, NE, 69101. Phone: +1 308-530-8942.
 
-* Professor [Caio A. Carbonari](carbonari@fca.unesp.br), Universidade Estadual Paulista Júlio de Mesquita Filho, Fazenda Experimental Lageado, CEP 18610-034, Botucatu, SP, Brazil. Work: +55 14 991145170, carbonari@fca.unesp.br
+* Professor [Caio A. Carbonari](carbonari@fca.unesp.br), Universidade Estadual Paulista Júlio de Mesquita Filho, Fazenda Experimental Lageado, CEP 18610-034, Botucatu, SP, Brazil. Phone: +55 14 991145170, carbonari@fca.unesp.br
 
-* Researcher [Dionísio L. P. Gazziero](dionisio.gazziero@embrapa.br), Empresa Brasileira de Pesquisa Agropecuária (EMBRAPA Soja), Rd Carlos João Strass, s/nº CEP: 86001-970, Londrina, PR, Brazil. Work: +55 43 99948062, dionisio.gazziero@embrapa.br.
+* Professor [Edivaldo D. Velini](velini@uol.com.br), Universidade Estadual Paulista Júlio de Mesquita Filho, Fazenda Experimental Lageado, CEP 18610-034, Botucatu, SP, Brazil. Phone: +55 14 998363372, velini@uol.com.br
+
+* Researcher [Dionísio L. P. Gazziero](dionisio.gazziero@embrapa.br), Empresa Brasileira de Pesquisa Agropecuária (EMBRAPA Soja), Rd Carlos João Strass, s/nº CEP: 86001-970, Londrina, PR, Brazil. Phone: +55 43 99948062, dionisio.gazziero@embrapa.br.
 
 ![Vitor Muller Anunciato](../data/signature.png)\

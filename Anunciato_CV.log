@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.12.6)  17 DEC 2020 16:25
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.12.6)  5 JAN 2021 09:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1062,34 +1062,29 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 16.0pt on input line 135.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 193.
+(Font)              scaled to size 10.0pt on input line 158.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 193.
+(Font)              scaled to size 10.0pt on input line 158.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 193.
-
-Overfull \hbox (113.46791pt too wide) in alignment at lines 190--234
-[] [] 
- []
-
+(Font)              scaled to size 9.0pt on input line 158.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <9> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 242.
+t line 158.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 242.
+(Font)              scaled to size 9.0pt on input line 158.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 242.
+(Font)              scaled to size 8.0pt on input line 158.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 242.
+(Font)              scaled to size 8.0pt on input line 158.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 242.
+(Font)              scaled to size 8.0pt on input line 158.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <8> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 242.
+t line 158.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 8.0pt on input line 242.
+(Font)              scaled to size 8.0pt on input line 158.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
 Make it at least 13.59999pt.
@@ -1098,72 +1093,45 @@ This may cause the page layout to be inconsistent, however.
 
 [1
 
-] [2]
+]
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 291.
+(Font)              scaled to size 12.0pt on input line 199.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 291.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/b/n' will be
-(Font)              scaled to size 10.95pt on input line 295.
+(Font)              scaled to size 12.0pt on input line 199.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 296.
-[3]
-Overfull \hbox (21.69394pt too wide) in paragraph at lines 336--341
-[][]\TU/SourceSansPro(0)/b/n/10.95 Seo, J. \TU/SourceSansPro(0)/m/n/10.95 (2019
-a). \TU/SourceSansPro(0)/m/it/10.95 Ezviewr: View tidy data in preferable sprea
-dsheet\TU/SourceSansPro(0)/m/n/10.95 . Retrieved from []$[][][][][] [] [] [] []
-[][][][][] [] [][][] [] [][][][][][][][][][][] []
- []
-
-
-Overfull \hbox (13.8836pt too wide) in paragraph at lines 374--374
- \TU/SourceSansPro(2)/m/it/9 project.org/web/packages/rmarkdown/[]|
- []
-
-
-Overfull \hbox (10.2206pt too wide) in paragraph at lines 377--377
- \TU/SourceSansPro(2)/m/it/9 project.org/web/packages/bookdown/[]|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 377--377
-[]\TU/SourceSansPro(2)/m/n/9 Developed context_document2, github_document2, bea
-mer_presentation2, html_fragment2, html_notebook2, html_vignette2,
- []
-
-
-Underfull \hbox (badness 2351) in paragraph at lines 377--377
-\TU/SourceSansPro(2)/m/n/9 ioslides_presentation2, slidy_presentation2 and rtf_
-document2 functions to enable R markdown users to utilize cross-references for
- []
-
+(Font)              scaled to size 10.95pt on input line 206.
+[2] [3]
+File: Anunciato_CV_files/figure-latex/unnamed-chunk-1-1.pdf Graphic file (type 
+pdf)
+<use Anunciato_CV_files/figure-latex/unnamed-chunk-1-1.pdf>
+File: Anunciato_CV_files/figure-latex/unnamed-chunk-2-1.pdf Graphic file (type 
+pdf)
+<use Anunciato_CV_files/figure-latex/unnamed-chunk-2-1.pdf>
 [4]
-Overfull \hbox (21.97055pt too wide) in paragraph at lines 453--459
-\TU/SourceSansPro(0)/m/n/10.95 EFEITO DO SELÊNIO COMO PROTETOR QUÍMICO NA SELET
-IVIDADE INICIAL DE HERBICIDAS APLICADOS EM pÓs EMERGÊN-
+Overfull \hbox (62.88791pt too wide) in alignment at lines 314--337
+[] [] 
  []
 
-[5] [6] [7] [8] [9]
 File: data/signature.png Graphic file (type bmp)
 <data/signature.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 826--827
+Underfull \hbox (badness 10000) in paragraph at lines 371--372
 
  []
 
-[10] (./Anunciato_CV.aux)
+[5] (./Anunciato_CV.aux)
 Package rerunfilecheck Info: File `Anunciato_CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32088 strings out of 479291
- 638560 string characters out of 5875116
- 1122076 words of memory out of 5000000
- 51034 multiletter control sequences out of 15000+600000
- 407778 words of font info for 116 fonts, out of 8000000 for 9000
+ 32087 strings out of 479291
+ 638809 string characters out of 5875116
+ 1118804 words of memory out of 5000000
+ 51031 multiletter control sequences out of 15000+600000
+ 407770 words of font info for 115 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 121i,12n,124p,550b,868s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 121i,11n,124p,550b,868s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Anunciato_CV.pdf (10 pages).
+Output written on Anunciato_CV.pdf (5 pages).
 
 ! Fontconfig error: Cannot load default config file

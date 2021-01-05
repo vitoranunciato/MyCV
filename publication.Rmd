@@ -10,17 +10,8 @@
 :::
 \endgroup -->
 
-## Refereed Journal Papers
+## Peer-reviewed Publications
 
 ::: {#refs_journals}
 :::
 
-## Working Papers under Revision or Review
-
-::: {#refs_working_paper}
-:::
-
-## Papers in Refereed Conference Proceedings
-
-::: {#refs_proceedings}
-:::

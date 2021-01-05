@@ -1,0 +1,12 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+# Extension text
+
+```{r outreach}
+ezpickr::pick("data/outreach.xlsx") %>%
+  tidyr::fill(-what) %>%
+  vitae::detailed_entries(with, when, what, where)
+```

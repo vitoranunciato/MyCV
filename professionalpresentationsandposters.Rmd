@@ -1,0 +1,12 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+# Professional Presentations and Posters
+
+```{r abstract}
+ezpickr::pick("data/abstract.xlsx") %>%
+  tidyr::fill(-what) %>%
+  vitae::detailed_entries(with, when, what, where, why)
+```
